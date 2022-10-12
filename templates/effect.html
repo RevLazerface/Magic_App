@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<h2>{{ effect }}</h2>
+<h3>Click the button to generate another magical effect!</h1>
+<form method="POST" action="/effect">
+     <input type="submit" name="submit">
+</form>
+{% endblock %}
